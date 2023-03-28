@@ -21,3 +21,7 @@
 .min-h500{
     min-height: 500px;
 }
+
+#per100{
+    width: 100%;
+}
