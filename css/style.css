@@ -1,3 +1,5 @@
+/* altezze */
+
 .min-h50{
     min-height: 50px;
 }
@@ -43,9 +45,26 @@
 .bg_blue    {background-color: #0e38b5;}
 .bg_beige   {background-color: #ccb2a3;}
 
+#green   {
+    background-color: #1abc9c;
+    border: 1px solid #1abc9c;
+}
+
 /* color */
 
 .colr_white{color: white;}
 
 #white{color: white;
 border: 1px solid white;}
+
+.bord_black{border-bottom: 1px solid black;}
+
+
+/* input */
+
+input:focus-visible{
+    outline: 0;
+}
+
+.bord_none{border: none;}
+
