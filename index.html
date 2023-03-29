@@ -5,43 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <title>Bootstrap</title>
 </head>
 <body>
-    <header>
-        <div class="container-fluid bg-secondary pt-4 pb-4">
-            <div class="row justify-content-around">
-                <div class="col-4 bg-light min-h50"></div>
-                <div class="col-4 bg-light min-h50"></div>
+    <nav>
+        <div class="container-fluid bg_blue_nav pt-4 pb-4">
+            <div class="row justify-content-around align-items-baseline">
+                <div class="col-4 navbar-dark">
+                    <a class="navbar-brand fw-bold" href="#">START BOOTSTRAP</a>
+                </div>
+                <div class="col-4 navbar-dark d-none d-md-flex d-flex justify-content-end">
+                    <a class="navbar-brand fs-6" href="#">Portfolio</a>
+                    <a class="navbar-brand fs-6" href="#">About</a>
+                    <a class="navbar-brand fs-6" href="#">Contanct</a>
+                </div>
+                <div class="col-4 navbar-dark d-lg-none d-md-none d-sm-flex d-flex justify-content-end">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                </div>
             </div>
         </div>
-        <div class="container-fluid bg-success min-h300 d-flex justify-content-center align-items-center flex-column">
+    </nav>
+
+    <header>
+        <div class="container-fluid bg_green d-flex justify-content-center align-items-center flex-column">
             <div class="row justify-content-center" id="per100">
-                <div class="col-3 bg-info min-h50"></div>
+                <div class="col-3 mt-5 d-flex justify-content-center">
+                    <img class="max_w_250" src="./img/avatar.svg" alt="">
+                </div>
             </div>
             <div class="row justify-content-center" id="per100">
-                <div class="col-3 bg-info min-h50"></div>
+                <div class="col-12 min-h50">
+                    <h1 class="text-center mt-2 colr_white">START BOOTSTRAP</h1>
+                    <p class="text-center mt-2 colr_white mb-5">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                </div>
             </div>
         </div>
     </header>
 
     <main>
-        <div class="container min-h400">
-            <div class="row justify-content-center mt-4 min-h100">
-                <div class="col-4 bg-secondary"></div>
+        <div class="w_60 m-auto">
+            <div class="row justify-content-center mt-4">
+                <div class="col-4">
+                    <h2 class="text-center mt-2 fw-bold">PORTFOLIO</h2>
+                </div>
             </div>
-            <div class="row offset-1 mt-3">
-                <div class="col-3 bg-success min-h100"></div>
-                <div class="col-3 bg-success min-h100 offset-1"></div>
-                <div class="col-3 bg-success min-h100 offset-1"></div>
-            </div>
-            <div class="row offset-1 mt-3">
-                <div class="col-3 bg-success min-h100"></div>
-                <div class="col-3 bg-success min-h100 offset-1"></div>
-                <div class="col-3 bg-success min-h100 offset-1"></div>
+            <div class="row justify-content-center mt-3">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <img class="img-fluid" src="./img/cabin.png" alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <img class="img-fluid" src="./img/cake.png" alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <img class="img-fluid" src="./img/circus.png" alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img class="img-fluid" src="./img/game.png" alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img class="img-fluid" src="./img/safe.png" alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img class="img-fluid" src="./img/submarine.png" alt="">
+                </div>
             </div>
         </div>
         <div class="container-fluid bg-success mt-5 pt-4 pb-4">

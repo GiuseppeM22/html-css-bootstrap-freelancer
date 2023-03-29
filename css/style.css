@@ -25,3 +25,24 @@
 #per100{
     width: 100%;
 }
+
+/* larghezza */
+
+.max_w_250{max-width: 250px;}
+.w_60{width: 60%;}
+
+
+/* background color */
+
+.bg_blue_nav{background-color: #2c3e50;}
+.bg_green   {background-color: #1abc9c;}
+.bg_red     {background-color: #ba4b63;}
+.bg_turkey  {background-color: #1ea4b6;}
+.bg_black   {background-color: #140f0f;}
+.bg_azz     {background-color: #1c83c1;}
+.bg_blue    {background-color: #0e38b5;}
+.bg_beige   {background-color: #ccb2a3;}
+
+/* color */
+
+.colr_white{color: white;}
