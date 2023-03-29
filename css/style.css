@@ -46,3 +46,6 @@
 /* color */
 
 .colr_white{color: white;}
+
+#white{color: white;
+border: 1px solid white;}
