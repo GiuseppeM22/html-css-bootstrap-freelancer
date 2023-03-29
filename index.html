@@ -34,12 +34,17 @@
         <div class="container-fluid bg_green d-flex justify-content-center align-items-center flex-column">
             <div class="row justify-content-center" id="per100">
                 <div class="col-3 mt-5 d-flex justify-content-center">
-                    <img class="max_w_250" src="./img/avatar.svg" alt="">
+                    <img class="min_w_250" src="./img/avatar.svg" alt="">
                 </div>
             </div>
             <div class="row justify-content-center" id="per100">
                 <div class="col-12 min-h50">
                     <h1 class="text-center mt-2 colr_white">START BOOTSTRAP</h1>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div class="stars_line_white"></div>
+                        <div><i class="fa-solid fa-star colr_white"></i></div>
+                        <div class="stars_line_white"></div>
+                    </div>
                     <p class="text-center mt-2 colr_white mb-5">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
                 </div>
             </div>
@@ -51,8 +56,13 @@
         <section>
             <div class="w_60 m-auto">
                 <div class="row justify-content-center mt-4">
-                    <div class="col-sm-12 col-4">
-                        <h2 class="text-center mt-2 fw-bold">PORTFOLIO</h2>
+                    <div class="col-sm-12 col-4 d-flex flex-column align-items-center">
+                        <h2 class="mt-2 fw-bold">PORTFOLIO</h2>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="stars_line"></div>
+                            <div><i class="fa-solid fa-star"></i></div>
+                            <div class="stars_line"></div>
+                        </div>
                     </div>
                 </div>
                 <div class="row justify-content-center mt-3">
@@ -65,13 +75,13 @@
                     <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
                         <img class="img-fluid" src="./img/circus.png" alt="">
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
                         <img class="img-fluid" src="./img/game.png" alt="">
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
                         <img class="img-fluid" src="./img/safe.png" alt="">
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
                         <img class="img-fluid" src="./img/submarine.png" alt="">
                     </div>
                 </div>
@@ -83,6 +93,11 @@
                 <div class="row min-h100 justify-content-center">
                     <div class="col-4">
                         <h2 class="text-center colr_white mt-4 fw-bold">ABOUT</h2>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="stars_line_white"></div>
+                            <div><i class="fa-solid fa-star colr_white"></i></div>
+                            <div class="stars_line_white"></div>
+                        </div>
                     </div>
                 </div>
                 <div class="container">
@@ -105,9 +120,14 @@
         <!-- main third section -->
         <section>
             <div class="container m-auto ">
-                    <div class="row justify-content-center mt-4 min-h100">
-                    <div class="col-4">
+                    <div class="row justify-content-center mt-4">
+                    <div class="col-5">
                         <h2 class="text-center fw-bold mt-3">CONTACT ME</h2>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="stars_line"></div>
+                            <div><i class="fa-solid fa-star"></i></div>
+                            <div class="stars_line"></div>
+                        </div>
                     </div>
                 </div>
                 <div class="row offset-2">
@@ -134,17 +154,39 @@
     </main>
     
     <footer>
-        <div class="container-fluid bg-info mt-5">
-            <div class="row offset-1 pt-4 pb-4">
-                <div class="col-3 min-h100 bg-light"></div>
-                <div class="col-3 min-h100 bg-light offset-1"></div>
-                <div class="col-3 min-h100 bg-light offset-1"></div>
+        <!-- footer first section -->
+        <section class=" bg_blue ">
+            <div class="container mt-5">
+                <div class="row pb-4 d-flex justify-content-around">
+                    <div class="col-sm-12 col-md-3 col-lg-3 mt-5">
+                        <h5 class="colr_white text-center">LOCATION</h5>
+                        <P class="colr_white text-center">2215 jhon daniel drive clark, MO 54243</P>
+                    </div>
+                    <div class="social col-sm-12 col-md-3 col-lg-3 mt-5">
+                        <h5 class="colr_white text-center">AROUND THE WEB</h5>
+                        <div class="d-flex justify-content-center">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-google-plus-g"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 mt-5">
+                        <h5 class="colr_white text-center">ABOUT FREELANCER</h5>
+                        <P class="colr_white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. <a class="text-decoration-none colr_green" href="">Vitae porro, quaerat</a></P>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="container-fluid bg-secondary">
-            <div class="row justify-content-center pt-4 pb-4">
-                <div class="col-3 min-h50 bg-light"></div>
-            </div>
+        </section>
+        <!-- footer second section -->
+        <section class="bg_blue_nav">
+            <div class="container-fluid p-3">
+                <div class="row justify-content-center">
+                    <div class="col-6">
+                        <p class="text-center colr_white fs-6">copyright your website 2023</p>
+                    </div>
+                </div>
+        </section>
     </footer>
 </body>
 </html>
